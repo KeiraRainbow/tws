@@ -1,0 +1,122 @@
+html {
+	height: 200%;
+}
+
+body{
+	min-width: 320px;
+	background: linear-gradient(#6e6e6e, #BFBFBF, #707070);
+	font-family: 'Neucha', cursive;
+	color: #fff;
+	box-sizing: border-box;
+	padding-bottom: 54px;
+	height: 100%;
+	align-content: center;
+}
+
+
+.main {
+	min-height:100%;
+
+}
+
+header{
+	height: 200px;
+}
+
+.navbar{
+	flex-wrap: wrap;
+}
+
+header .navbar-brand{
+	font-size: 60px;
+	text-shadow: 1px 0 1px #000, 
+	0 1px 1px #000, 
+	-2px 0 1px #000, 
+	0 -1px 1px #000;
+}
+.navbar-nav{
+	font-size: 30px;
+}
+
+.nav-item{
+	margin-left: 30px;
+	z-index: 100;
+}
+
+a:hover{
+	color: #dbdbdb;
+	text-shadow: -6px 6px 6px #8F5800;
+	-moz-text-shadow:0 0 5px #8F5800; 
+	-webkit-text-shadow:0 0 5px #8F5800; 
+	text-shadow:0 0 5px #8F5800;
+}
+
+.content {
+	padding: 100px;
+	height: 400px;
+}
+
+img{
+	max-width: 100%;
+	height: auto;
+}
+
+.slider{
+	margin-bottom: 50px;
+}
+
+h1{
+	font-size: 50px;
+	text-align: center;
+	text-shadow: 1px 0 1px #000, 
+	0 1px 1px #000, 
+	-1px 0 1px #000, 
+	0 -1px 1px #000;
+}
+
+p{
+	font-size: 30px;
+	color: #000;
+}
+
+footer{
+	font-size: 20px;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+
+/*large devises*/
+@media only screen and (max-width: 1200 xp) {
+
+}
+
+@media only screen and (max-width: 1199 xp) {
+
+}
+/*medium devises*/
+@media only screen and (max-width: 992 xp) {
+		.nav-item{
+		margin-left: 0;
+		background: #6e6e6e;
+	}
+}
+@media only screen and (max-width: 991 xp) {
+
+}
+/*small devises*/
+@media only screen and (max-width: 768 xp) {
+
+}
+@media only screen and (max-width: 767 xp) {
+
+}
+
+@media only screen and (max-width: 575 xp) {
+
+}
+/*extra small devises*/
+@media only screen and (max-width: 480 xp) {
+
+}
